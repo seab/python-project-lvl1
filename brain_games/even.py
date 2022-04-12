@@ -16,14 +16,15 @@ def guess_even():
     while game_on:
         number = random.randint(1, 20)
         print(f"Question: {number}")
-        user_answer = prompt.string(f"Your answer: ")
+        user_answer = prompt.string("Your answer: ")
 
         if user_answer == is_even(number):
             print("Correct!")
             accumulator += 1
 
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{is_even(number)}'"
+            print(f"'{user_answer}' is wrong answer ;(. "
+                  f"Correct answer was '{is_even(number)}'"
                   f"\nLet's try again {name}")
             game_on = False
 
