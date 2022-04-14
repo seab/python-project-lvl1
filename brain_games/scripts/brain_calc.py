@@ -1,9 +1,9 @@
 #!/usr/bin/evn python
-from brain_games.games import even
+from brain_games.games import calc
 
 
 def main():
-    even.guess_even()
+    calc.main()
 
 
 if __name__ == '__main__':
