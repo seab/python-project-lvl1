@@ -25,7 +25,7 @@ def guess_even():
         else:
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{is_even(number)}'"
-                  f"\nLet's try again {name}")
+                  f"\nLet's try again {name}!")
             game_on = False
 
         if accumulator == 3:
