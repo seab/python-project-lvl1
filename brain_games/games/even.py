@@ -30,7 +30,7 @@ def guess_even():
 
         if accumulator == 3:
             game_on = False
-            print(f"Congratulations, {name}")
+            print(f"Congratulations, {name}!")
 
 
 print('Welcome to the Brain Games!')
